@@ -1,14 +1,14 @@
 # Sign Recognition Project Jan 2023
 A project to convert a sign to its equivalent text.
 ## Contents:
-### [Abstract](#abstract)
-### [Introduction](#introduction)
-### [Overall Description](#overall-description)
-### [LSTM](#lstm)
-### [Data-set Generation Process](#data-set-generation-process)
-### [Data-set Training Process](#data-set-training-process)
-### [Data-set Testing Process](#data-set-testing-process)
-### [Future Scope](#future-scope)
+[Abstract](#abstract)
+[Introduction](#introduction)
+[Overall Description](#overall-description)
+[LSTM](#lstm)
+[Data-set Generation Process](#data-set-generation-process)
+[Data-set Training Process](#data-set-training-process)
+[Data-set Testing Process](#data-set-testing-process)
+[Future Scope](#future-scope)
 
 ## Abstract:
 Sign language is one of the oldest and most natural forms of language for communication.  Most people do not know sign language and interpreters are very difficult to come by, therefore we have come up with a real time method using neural networks for finger-spelling based Indian SignLanguage (ISL).
@@ -47,9 +47,14 @@ We use the OpenCV library of python to capture images and snippets of the traini
 
 ## Data-set Training Process:
 The model is trained using 3 layers of LSTM and 3 Dense layers with the Relu activation function and Softmax for the last layer. The optimizer used is Adam. The following data set has been trained for 300 epochs giving an accuracy of 84.60\% when it is tested against itself. Finally this model is saved and used for the training phase.
+![image](https://user-images.githubusercontent.com/83157662/215320877-4e9ee3e5-b2e2-46bd-95a0-5d9ffce99051.png)
+![image](https://user-images.githubusercontent.com/83157662/215320884-0ef23edb-b25d-45de-a19b-c6c8bf5d5c19.png)
+![image](https://user-images.githubusercontent.com/83157662/215320905-26cf291c-cdb6-4144-a5d1-ab1626610d9b.png)
 
 ## Data-set Testing Process:
 The testing of the model is done once we have the saved trained model. Here we have tested for some of the signs like 6, o, q, v, 8. 
+![image](https://user-images.githubusercontent.com/83157662/215320923-fc0e3e1b-cfca-4942-80cf-2b2414534ea3.png)
+![image](https://user-images.githubusercontent.com/83157662/215320933-120814ad-20d9-455f-90ec-0add29ddf1f2.png)
 
 ## Future Scope:
 This project is still in its initial stages and definitely needs much improvement in terms of accuracy and additional signs to the data set, in order to predict a wider range of signs. Other scopes include:
