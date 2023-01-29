@@ -1,5 +1,15 @@
 # Sign Recognition Project Jan 2023
 A project to convert a sign to its equivalent text.
+
+## Developed by
+
+**Vishwa Mehta**   
+[![GitHub Badge](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Vishwa-Mehta)
+[![LinkedIn Badge](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/vishwa-m-mehta/)  
+**Kanchan Patil**  
+[![GitHub Badge](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/knchn08)
+[![LinkedIn Badge](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/kanchan-patil-a37087200/)
+
 ## Contents:
 - [Abstract](#abstract)
 - [Introduction](#introduction)
