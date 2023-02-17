@@ -44,7 +44,7 @@ The purpose of the project is to build an AI assistant designed specifically for
 - OpenCV
 - Mediapipe
 - Tensorflow
-- Keras
+- scikit-learn
 
 ## LSTM:
 Our project uses the LSTM network. In concept, an LSTM recurrent unit tries to “remember” all the past knowledge that the network is seen so far and to “forget” irrelevant data. This is done by introducing different activation function layers called “gates” for different purposes.
